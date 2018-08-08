@@ -41,7 +41,7 @@ const GenerateMessage = name => {
   ];
   const d = new Date();
   const dayName = days[d.getDay()];
-  return `Hi ${name} Thanks for .... \n Happy ${dayName} 😊😊 `; // your message
+  return `Hi ${name} Thanks for following, if you think you would be a good guest for the show, please visit http://www.buildingthefutureshow.com/ and let me know why.`; // your message
   // My message   return `Hi ${name} Thanks for following, if you think you would be a good guest for the show, please visit http://www.buildingthefutureshow.com/ and let me know why?`;
 };
 
